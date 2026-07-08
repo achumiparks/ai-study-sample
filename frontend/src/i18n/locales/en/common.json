@@ -1,0 +1,17 @@
+{
+  "save": "Save",
+  "delete": "Delete",
+  "cancel": "Cancel",
+  "add": "Add",
+  "search": "Search",
+  "all": "All",
+  "completed": "Completed",
+  "incomplete": "Incomplete",
+  "empty": "No items found.",
+  "title": "Title",
+  "description": "Description",
+  "dueDate": "Due Date",
+  "status": "Status",
+  "noSelection": "Select an item to view details.",
+  "lang": "Language"
+}

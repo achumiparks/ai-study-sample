@@ -1,0 +1,14 @@
+{
+  "appTitle": "My Todos",
+  "filter": {
+    "all": "All",
+    "today": "Today",
+    "next7days": "Next 7 Days"
+  },
+  "addTodo": "+ Add New Todo",
+  "searchPlaceholder": "Search...",
+  "editDetail": "Edit Detail",
+  "duePrefix": "Due: ",
+  "overduePrefix": "Overdue: ",
+  "newTodo": "New Todo"
+}

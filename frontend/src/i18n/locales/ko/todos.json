@@ -1,0 +1,14 @@
+{
+  "appTitle": "My Todos",
+  "filter": {
+    "all": "전체",
+    "today": "오늘",
+    "next7days": "다음 7일"
+  },
+  "addTodo": "+ 새 할일 추가",
+  "searchPlaceholder": "검색...",
+  "editDetail": "상세 편집",
+  "duePrefix": "마감: ",
+  "overduePrefix": "기한 초과: ",
+  "newTodo": "새 할일"
+}

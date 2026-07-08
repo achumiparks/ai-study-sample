@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@theme {
+  --color-primary: #3498db;
+  --color-primary-hover: #2980b9;
+  --color-danger: #e74c3c;
+  --color-danger-hover: #c0392b;
+  --color-surface: #ffffff;
+  --color-surface-variant: #fafafa;
+  --color-sidebar: #2c3e50;
+  --color-sidebar-active: #3498db;
+}
