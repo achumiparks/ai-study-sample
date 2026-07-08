@@ -14,6 +14,7 @@ export function useAppMode(): AppMode {
     }
     const env = import.meta.env.VITE_APP_MODE
     if (env === 'dev' || env === 'app') return env as AppMode
-    return 'dev'
+    // 프로덕션 빌드에서는 'app', 개발 서버에서는 'dev' 기본값
+    return import.meta.env.DEV ? 'dev' : 'app'
   }, [])
 }
