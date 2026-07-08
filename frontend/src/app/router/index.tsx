@@ -4,5 +4,5 @@ import { buildRoutes } from './routes'
 
 export async function createAppRouter(mode: AppMode) {
   const routes = await buildRoutes(mode)
-  return createBrowserRouter(routes)
+  return createBrowserRouter(routes, { basename: import.meta.env.BASE_URL })
 }
