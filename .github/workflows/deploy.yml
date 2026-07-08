@@ -47,7 +47,7 @@ jobs:
         run: npm run build
         working-directory: frontend
         env:
-          GITHUB_ACTIONS: true
+          VITE_BASE: /ai-study-sample/
 
       - uses: actions/configure-pages@v5
 
